@@ -22,6 +22,7 @@ body{
       padding: 12px;
       border: none;
       border-radius: 6px;
+      cursor: pointer;
 
 }
 
@@ -69,6 +70,39 @@ body{
     color: #1d3557;
     margin: 20px 0;
 }
+
+/* menu styles */
+
+
+.explore_menu_container{
+   margin-top: 50px; 
+}
+
+
+.explore_menu_text{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+.food_menu_card{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px; 
+}
+
+.food_image{
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.food_menu_card_description{
+   padding: 20px;
+}
+
 
 @media (min-width: 768px){
     .navbar{
